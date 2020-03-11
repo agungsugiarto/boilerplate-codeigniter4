@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=7.2",
+		"ext-mbstring": "*",
 		"codeigniter4/framework": "^4",
 		"agungsugiarto/boilerplate": "dev-master"
 	},

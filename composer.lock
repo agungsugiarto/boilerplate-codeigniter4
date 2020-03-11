@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d31dc1f28659f96c4c09957ff1a9d900",
+    "content-hash": "8889727820e42d1b28acd68d603e37d3",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
@@ -1974,7 +1974,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "ext-mbstring": "*"
     },
     "platform-dev": []
 }
