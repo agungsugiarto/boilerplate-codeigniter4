@@ -115,7 +115,7 @@ class Auth extends \Myth\Auth\Config\Auth
     // you might not want the extra risk associated with this cookie-based
     // solution.
     //
-    public $allowRemembering = false;
+    public $allowRemembering = true;
 
     //--------------------------------------------------------------------
     // Remember Length
