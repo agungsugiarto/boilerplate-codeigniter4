@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8889727820e42d1b28acd68d603e37d3",
+    "content-hash": "67f958b10fe6624a2084e4db58476fc9",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "b8dce37994740abee3336797b81a690d852c9136"
+                "reference": "1902f3a367fc03694b0e8139b64fff94ac918d61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/b8dce37994740abee3336797b81a690d852c9136",
-                "reference": "b8dce37994740abee3336797b81a690d852c9136",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/1902f3a367fc03694b0e8139b64fff94ac918d61",
+                "reference": "1902f3a367fc03694b0e8139b64fff94ac918d61",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-03-19T14:14:02+00:00"
+            "time": "2020-03-19T19:57:11+00:00"
         },
         {
             "name": "codeigniter4/framework",
