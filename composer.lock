@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "b14f67c864a93a935527af4c69cd34f916a83266"
+                "reference": "cf4f31df637e4549447e1952ce411694d6cd7c80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/b14f67c864a93a935527af4c69cd34f916a83266",
-                "reference": "b14f67c864a93a935527af4c69cd34f916a83266",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/cf4f31df637e4549447e1952ce411694d6cd7c80",
+                "reference": "cf4f31df637e4549447e1952ce411694d6cd7c80",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-03-20T18:18:06+00:00"
+            "time": "2020-03-22T04:22:26+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -310,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "62676e981587a6efb7d49b5370da4b760a1a5a59"
+                "reference": "e82466d21f5badc0e222bd89cc77d351d414d746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/62676e981587a6efb7d49b5370da4b760a1a5a59",
-                "reference": "62676e981587a6efb7d49b5370da4b760a1a5a59",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/e82466d21f5badc0e222bd89cc77d351d414d746",
+                "reference": "e82466d21f5badc0e222bd89cc77d351d414d746",
                 "shasum": ""
             },
             "require": {
@@ -352,7 +352,7 @@
                 "authorization",
                 "codeigniter"
             ],
-            "time": "2020-03-16T05:22:04+00:00"
+            "time": "2020-03-20T21:08:38+00:00"
         },
         {
             "name": "psr/log",
