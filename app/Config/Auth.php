@@ -12,7 +12,7 @@ class Auth extends \Myth\Auth\Config\Auth
     //
     // i.e. $defaultUserGroup = 'guests';
     //
-    public $defaultUserGroup;
+    public $defaultUserGroup = 'member';
 
     //--------------------------------------------------------------------
     // Libraries
