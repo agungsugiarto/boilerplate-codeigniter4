@@ -30,7 +30,7 @@ class Boilerplate extends BaseConfig
     // pelase see https://cdn.datatables.net/plug-ins/1.10.20/i18n/
     //--------------------------------------------------------------------------
 
-    public $i18n = 'Indonesian';
+    public $i18n = 'English';
 
     //--------------------------------------------------------------------------
     // Theme boilerplate
@@ -76,7 +76,7 @@ class Boilerplate extends BaseConfig
             ],
         ],
         'footer' => [
-            'fixed'      => false,
+            'fixed'      => true,
             'vendorname' => 'Your Awesome Vendor',
             'vendorlink' => 'https://your-awesome.com',
         ],
