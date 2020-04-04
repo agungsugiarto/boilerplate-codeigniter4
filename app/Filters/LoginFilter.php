@@ -45,11 +45,8 @@ class LoginFilter implements FilterInterface
 		$authenticate = Services::authentication();
 		if (! $authenticate->check())
 		{
-			if (! $authenticate->viaRemember())
-			{
-				session()->set('redirect_url', current_url());
-				return redirect('login');
-			}
+			session()->set('redirect_url', current_url());
+			return redirect('login');
 		}
 	}
 
