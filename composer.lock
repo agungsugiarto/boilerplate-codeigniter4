@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "29e53ee5fe3a85249ea7f11c6c36fc311af97d8e"
+                "reference": "fe820b6ae9e298fc4ffa9e720ac0bff08ed1fb08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/29e53ee5fe3a85249ea7f11c6c36fc311af97d8e",
-                "reference": "29e53ee5fe3a85249ea7f11c6c36fc311af97d8e",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/fe820b6ae9e298fc4ffa9e720ac0bff08ed1fb08",
+                "reference": "fe820b6ae9e298fc4ffa9e720ac0bff08ed1fb08",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-04-08T10:38:29+00:00"
+            "time": "2020-04-09T17:08:01+00:00"
         },
         {
             "name": "codeigniter4/framework",
