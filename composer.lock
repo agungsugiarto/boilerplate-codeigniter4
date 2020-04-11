@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8889727820e42d1b28acd68d603e37d3",
+    "content-hash": "6578e5f59047f74ea16a3acaafb792a1",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "dev-master",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "b98710218dc1ae86ad4752156a24903c46ddeaea"
+                "reference": "9b633c494966939d2aef6ba2dfec57e8e8ccbc36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/b98710218dc1ae86ad4752156a24903c46ddeaea",
-                "reference": "b98710218dc1ae86ad4752156a24903c46ddeaea",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/9b633c494966939d2aef6ba2dfec57e8e8ccbc36",
+                "reference": "9b633c494966939d2aef6ba2dfec57e8e8ccbc36",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-04-11T12:56:03+00:00"
+            "time": "2020-04-11T13:06:29+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -1969,9 +1969,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "agungsugiarto/boilerplate": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
