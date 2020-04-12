@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6578e5f59047f74ea16a3acaafb792a1",
+    "content-hash": "8889727820e42d1b28acd68d603e37d3",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "1.0.7",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "9b633c494966939d2aef6ba2dfec57e8e8ccbc36"
+                "reference": "493262255d132936fe5bfead4970c7435c8e5835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/9b633c494966939d2aef6ba2dfec57e8e8ccbc36",
-                "reference": "9b633c494966939d2aef6ba2dfec57e8e8ccbc36",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/493262255d132936fe5bfead4970c7435c8e5835",
+                "reference": "493262255d132936fe5bfead4970c7435c8e5835",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-04-11T13:06:29+00:00"
+            "time": "2020-04-12T13:59:31+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -311,12 +311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "2b88445f2f48671cde04d284db78c57a09f32c1f"
+                "reference": "39df7542e298ac53d1cf73629cdf1e6bed60f740"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/2b88445f2f48671cde04d284db78c57a09f32c1f",
-                "reference": "2b88445f2f48671cde04d284db78c57a09f32c1f",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/39df7542e298ac53d1cf73629cdf1e6bed60f740",
+                "reference": "39df7542e298ac53d1cf73629cdf1e6bed60f740",
                 "shasum": ""
             },
             "require": {
@@ -353,7 +353,7 @@
                 "authorization",
                 "codeigniter"
             ],
-            "time": "2020-04-06T14:42:04+00:00"
+            "time": "2020-04-12T04:39:26+00:00"
         },
         {
             "name": "psr/log",
@@ -1969,7 +1969,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "agungsugiarto/boilerplate": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
