@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8889727820e42d1b28acd68d603e37d3",
+    "content-hash": "6578e5f59047f74ea16a3acaafb792a1",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "dev-master",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "a197be7695d204c7e4194efb2967d7b181fc19a4"
+                "reference": "bf0dd80352edcc2d4a50b23b3dc3398d594908fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/a197be7695d204c7e4194efb2967d7b181fc19a4",
-                "reference": "a197be7695d204c7e4194efb2967d7b181fc19a4",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/bf0dd80352edcc2d4a50b23b3dc3398d594908fc",
+                "reference": "bf0dd80352edcc2d4a50b23b3dc3398d594908fc",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-04-15T07:48:33+00:00"
+            "time": "2020-04-18T15:04:17+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -311,12 +311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "4f0c33820e82d54b3c24402c5c44cb8cafa4dae7"
+                "reference": "945cc754047beb91dba7bffc336e5a15e3f075ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/4f0c33820e82d54b3c24402c5c44cb8cafa4dae7",
-                "reference": "4f0c33820e82d54b3c24402c5c44cb8cafa4dae7",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/945cc754047beb91dba7bffc336e5a15e3f075ab",
+                "reference": "945cc754047beb91dba7bffc336e5a15e3f075ab",
                 "shasum": ""
             },
             "require": {
@@ -353,7 +353,7 @@
                 "authorization",
                 "codeigniter"
             ],
-            "time": "2020-04-14T15:55:05+00:00"
+            "time": "2020-04-17T17:26:00+00:00"
         },
         {
             "name": "psr/log",
@@ -1920,16 +1920,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "aed98a490f9a8f78468232db345ab9cf606cf598"
+                "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/aed98a490f9a8f78468232db345ab9cf606cf598",
-                "reference": "aed98a490f9a8f78468232db345ab9cf606cf598",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
+                "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
                 "shasum": ""
             },
             "require": {
@@ -1937,7 +1937,7 @@
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "vimeo/psalm": "<3.6.0"
+                "vimeo/psalm": "<3.9.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.36 || ^7.5.13"
@@ -1964,14 +1964,12 @@
                 "check",
                 "validate"
             ],
-            "time": "2020-02-14T12:15:55+00:00"
+            "time": "2020-04-18T12:12:48+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "agungsugiarto/boilerplate": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
