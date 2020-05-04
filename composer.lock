@@ -8,25 +8,25 @@
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "75584bd24a527892d9744bf1f323aee0155f84cb"
+                "reference": "7f74a9585a16e5b9e6f4076dd2da06b02dc0911a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/75584bd24a527892d9744bf1f323aee0155f84cb",
-                "reference": "75584bd24a527892d9744bf1f323aee0155f84cb",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/7f74a9585a16e5b9e6f4076dd2da06b02dc0911a",
+                "reference": "7f74a9585a16e5b9e6f4076dd2da06b02dc0911a",
                 "shasum": ""
             },
             "require": {
-                "codeigniter4/translations": "v4.0.0-rc.3",
+                "codeigniter4/translations": "^4.0",
                 "myth/auth": "dev-develop",
                 "php": ">7.2"
             },
             "require-dev": {
-                "codeigniter4/framework": "^4",
+                "codeigniter4/framework": "^4.0",
                 "fzaninotto/faker": "^1.9",
                 "phpunit/phpunit": "8.5.*"
             },
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-04-19T07:43:35+00:00"
+            "time": "2020-05-04T22:26:43+00:00"
         },
         {
             "name": "codeigniter4/framework",
@@ -101,16 +101,16 @@
         },
         {
             "name": "codeigniter4/translations",
-            "version": "v4.0.0-rc.3",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/translations.git",
-                "reference": "b9434446cc45c10aafd8cc18448d85687c37fb8d"
+                "reference": "a00809088fa974af77f63d93123d9db7bd4f6945"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/b9434446cc45c10aafd8cc18448d85687c37fb8d",
-                "reference": "b9434446cc45c10aafd8cc18448d85687c37fb8d",
+                "url": "https://api.github.com/repos/codeigniter4/translations/zipball/a00809088fa974af77f63d93123d9db7bd4f6945",
+                "reference": "a00809088fa974af77f63d93123d9db7bd4f6945",
                 "shasum": ""
             },
             "require": {
@@ -133,7 +133,7 @@
             ],
             "description": "Translations for CodeIgniter v4 web framework",
             "homepage": "https://codeigniter.com",
-            "time": "2019-10-19T14:22:14+00:00"
+            "time": "2020-04-22T03:26:13+00:00"
         },
         {
             "name": "kint-php/kint",
@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "945cc754047beb91dba7bffc336e5a15e3f075ab"
+                "reference": "e770e402a16334f5a1aa26601571f1ed61c0ab81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/945cc754047beb91dba7bffc336e5a15e3f075ab",
-                "reference": "945cc754047beb91dba7bffc336e5a15e3f075ab",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/e770e402a16334f5a1aa26601571f1ed61c0ab81",
+                "reference": "e770e402a16334f5a1aa26601571f1ed61c0ab81",
                 "shasum": ""
             },
             "require": {
@@ -354,7 +354,17 @@
                 "authorization",
                 "codeigniter"
             ],
-            "time": "2020-04-17T17:26:00+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/lonnieezell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/lonnieezell",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-05-04T04:20:00+00:00"
         },
         {
             "name": "psr/log",
