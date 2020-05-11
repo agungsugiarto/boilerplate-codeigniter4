@@ -1,38 +1,44 @@
 {
-	"name": "codeigniter4/appstarter",
-	"type": "project",
-	"description": "CodeIgniter4 starter app",
-	"homepage": "https://codeigniter.com",
-	"license": "MIT",
-	"require": {
-		"php": ">=7.2",
-		"ext-mbstring": "*",
-		"codeigniter4/framework": "^4",
-		"agungsugiarto/boilerplate": "^1.0"
-	},
-	"require-dev": {
-		"mikey179/vfsstream": "1.6.*",
-		"phpunit/phpunit": "8.5.*"
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Tests\\Support\\": "tests/_support"
-		}
-	},
-	"minimum-stability": "dev",
+    "name": "codeigniter4/appstarter",
+    "type": "project",
+    "description": "CodeIgniter4 starter app",
+    "homepage": "https://codeigniter.com",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "ext-mbstring": "*",
+        "agungsugiarto/boilerplate": "^1.0",
+        "codeigniter4/codeigniter4": "dev-develop"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "1.6.*",
+        "phpunit/phpunit": "8.5.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Support\\": "tests/_support"
+        }
+    },
+    "minimum-stability": "dev",
     "prefer-stable": true,
-	"scripts": {
-		"test": "phpunit",
-		"post-update-cmd": [
-			"@composer dump-autoload"
-		],
-		"post-root-package-install": [
+    "scripts": {
+        "test": "phpunit",
+        "post-update-cmd": [
+            "@composer dump-autoload"
+        ],
+        "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
-	},
-	"support": {
-		"forum": "http://forum.codeigniter.com/",
-		"source": "https://github.com/codeigniter4/CodeIgniter4",
-		"slack": "https://codeigniterchat.slack.com"
-	}
+    },
+    "support": {
+        "forum": "http://forum.codeigniter.com/",
+        "source": "https://github.com/codeigniter4/CodeIgniter4",
+        "slack": "https://codeigniterchat.slack.com"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codeigniter4/codeigniter4"
+        }
+    ]
 }

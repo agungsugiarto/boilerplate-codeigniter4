@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6578e5f59047f74ea16a3acaafb792a1",
+    "content-hash": "61bcae06b22f2c1b04ea5f835c21f0f7",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "7f74a9585a16e5b9e6f4076dd2da06b02dc0911a"
+                "reference": "b30463ee55bdbc6dc835d0d983f0952ae076f13b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/7f74a9585a16e5b9e6f4076dd2da06b02dc0911a",
-                "reference": "7f74a9585a16e5b9e6f4076dd2da06b02dc0911a",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/b30463ee55bdbc6dc835d0d983f0952ae076f13b",
+                "reference": "b30463ee55bdbc6dc835d0d983f0952ae076f13b",
                 "shasum": ""
             },
             "require": {
@@ -53,20 +53,20 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-05-04T22:26:43+00:00"
+            "time": "2020-05-11T13:12:58+00:00"
         },
         {
-            "name": "codeigniter4/framework",
-            "version": "v4.0.3",
+            "name": "codeigniter4/codeigniter4",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeigniter4/framework.git",
-                "reference": "edd88b18483e309bab1411651d846aace255ab36"
+                "url": "https://github.com/codeigniter4/CodeIgniter4.git",
+                "reference": "b906a691a73ea0fa54142d47f5b360bbb306ae98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/framework/zipball/edd88b18483e309bab1411651d846aace255ab36",
-                "reference": "edd88b18483e309bab1411651d846aace255ab36",
+                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/b906a691a73ea0fa54142d47f5b360bbb306ae98",
+                "reference": "b906a691a73ea0fa54142d47f5b360bbb306ae98",
                 "shasum": ""
             },
             "require": {
@@ -91,13 +91,25 @@
                     "CodeIgniter\\": "system/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "post-update-cmd": [
+                    "@composer dump-autoload",
+                    "CodeIgniter\\ComposerScripts::postUpdate",
+                    "bash admin/setup.sh"
+                ]
+            },
             "license": [
                 "MIT"
             ],
             "description": "The CodeIgniter framework v4",
             "homepage": "https://codeigniter.com",
-            "time": "2020-05-01T05:01:20+00:00"
+            "support": {
+                "forum": "http://forum.codeigniter.com/",
+                "source": "https://github.com/codeigniter4/CodeIgniter4",
+                "slack": "https://codeigniterchat.slack.com",
+                "issues": "https://github.com/codeigniter4/CodeIgniter4/issues"
+            },
+            "time": "2020-05-11T04:02:51+00:00"
         },
         {
             "name": "codeigniter4/translations",
@@ -312,12 +324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "e770e402a16334f5a1aa26601571f1ed61c0ab81"
+                "reference": "e5643f0fa0fc56e41c2902124589acc3b4fcb305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/e770e402a16334f5a1aa26601571f1ed61c0ab81",
-                "reference": "e770e402a16334f5a1aa26601571f1ed61c0ab81",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/e5643f0fa0fc56e41c2902124589acc3b4fcb305",
+                "reference": "e5643f0fa0fc56e41c2902124589acc3b4fcb305",
                 "shasum": ""
             },
             "require": {
@@ -364,7 +376,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-05-04T04:20:00+00:00"
+            "time": "2020-05-11T03:08:40+00:00"
         },
         {
             "name": "psr/log",
@@ -1840,16 +1852,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1aab00e39cebaef4d8652497f46c15c1b7e45294",
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294",
                 "shasum": ""
             },
             "require": {
@@ -1861,7 +1873,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -1894,7 +1906,21 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -1987,7 +2013,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "codeigniter4/codeigniter4": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
