@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "1.0.12",
+            "version": "1.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "b30463ee55bdbc6dc835d0d983f0952ae076f13b"
+                "reference": "c7766e764ac18e88a76e441f9f60832bdbdba585"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/b30463ee55bdbc6dc835d0d983f0952ae076f13b",
-                "reference": "b30463ee55bdbc6dc835d0d983f0952ae076f13b",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/c7766e764ac18e88a76e441f9f60832bdbdba585",
+                "reference": "c7766e764ac18e88a76e441f9f60832bdbdba585",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-05-11T13:12:58+00:00"
+            "time": "2020-05-13T18:02:29+00:00"
         },
         {
             "name": "codeigniter4/codeigniter4",
@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/CodeIgniter4.git",
-                "reference": "b906a691a73ea0fa54142d47f5b360bbb306ae98"
+                "reference": "c0ba2685b77721457e2c5c8984c6faa8211e92f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/b906a691a73ea0fa54142d47f5b360bbb306ae98",
-                "reference": "b906a691a73ea0fa54142d47f5b360bbb306ae98",
+                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/c0ba2685b77721457e2c5c8984c6faa8211e92f8",
+                "reference": "c0ba2685b77721457e2c5c8984c6faa8211e92f8",
                 "shasum": ""
             },
             "require": {
@@ -109,7 +109,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "issues": "https://github.com/codeigniter4/CodeIgniter4/issues"
             },
-            "time": "2020-05-11T04:02:51+00:00"
+            "time": "2020-05-13T04:08:47+00:00"
         },
         {
             "name": "codeigniter4/translations",
@@ -324,12 +324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "e5643f0fa0fc56e41c2902124589acc3b4fcb305"
+                "reference": "6191627734409689e060eb2d7234663bb4797493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/e5643f0fa0fc56e41c2902124589acc3b4fcb305",
-                "reference": "e5643f0fa0fc56e41c2902124589acc3b4fcb305",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/6191627734409689e060eb2d7234663bb4797493",
+                "reference": "6191627734409689e060eb2d7234663bb4797493",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +376,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-05-11T03:08:40+00:00"
+            "time": "2020-05-12T17:47:02+00:00"
         },
         {
             "name": "psr/log",
@@ -1852,16 +1852,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.16.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294"
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1aab00e39cebaef4d8652497f46c15c1b7e45294",
-                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
                 "shasum": ""
             },
             "require": {
@@ -1873,7 +1873,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -1920,7 +1920,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-08T16:50:20+00:00"
+            "time": "2020-05-12T16:14:59+00:00"
         },
         {
             "name": "theseer/tokenizer",
