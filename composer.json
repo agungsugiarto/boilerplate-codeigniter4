@@ -7,7 +7,7 @@
     "require": {
         "php": ">=7.2",
         "ext-mbstring": "*",
-        "agungsugiarto/boilerplate": "^1.0",
+        "agungsugiarto/boilerplate": "dev-master",
         "codeigniter4/codeigniter4": "dev-develop"
     },
     "require-dev": {

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61bcae06b22f2c1b04ea5f835c21f0f7",
+    "content-hash": "bbfc7534e23c68004053b8acc005e376",
     "packages": [
         {
             "name": "agungsugiarto/boilerplate",
-            "version": "1.0.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/agungsugiarto/boilerplate.git",
-                "reference": "c7766e764ac18e88a76e441f9f60832bdbdba585"
+                "reference": "6baa85833bf2b19fd0b62b9f11842e7250cf39b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/c7766e764ac18e88a76e441f9f60832bdbdba585",
-                "reference": "c7766e764ac18e88a76e441f9f60832bdbdba585",
+                "url": "https://api.github.com/repos/agungsugiarto/boilerplate/zipball/6baa85833bf2b19fd0b62b9f11842e7250cf39b7",
+                "reference": "6baa85833bf2b19fd0b62b9f11842e7250cf39b7",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 "boilerplate",
                 "codeigniter4"
             ],
-            "time": "2020-05-13T18:02:29+00:00"
+            "time": "2020-05-27T10:36:05+00:00"
         },
         {
             "name": "codeigniter4/codeigniter4",
@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeigniter4/CodeIgniter4.git",
-                "reference": "c0ba2685b77721457e2c5c8984c6faa8211e92f8"
+                "reference": "6d019e5354629fa7c1e293c2f463d91004c6e26c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/c0ba2685b77721457e2c5c8984c6faa8211e92f8",
-                "reference": "c0ba2685b77721457e2c5c8984c6faa8211e92f8",
+                "url": "https://api.github.com/repos/codeigniter4/CodeIgniter4/zipball/6d019e5354629fa7c1e293c2f463d91004c6e26c",
+                "reference": "6d019e5354629fa7c1e293c2f463d91004c6e26c",
                 "shasum": ""
             },
             "require": {
@@ -81,6 +81,7 @@
             },
             "require-dev": {
                 "codeigniter4/codeigniter4-standard": "^1.0",
+                "fzaninotto/faker": "^1.9@dev",
                 "mikey179/vfsstream": "1.6.*",
                 "phpunit/phpunit": "^8.5",
                 "squizlabs/php_codesniffer": "^3.3"
@@ -109,7 +110,7 @@
                 "slack": "https://codeigniterchat.slack.com",
                 "issues": "https://github.com/codeigniter4/CodeIgniter4/issues"
             },
-            "time": "2020-05-13T04:08:47+00:00"
+            "time": "2020-05-20T03:15:37+00:00"
         },
         {
             "name": "codeigniter4/translations",
@@ -268,16 +269,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9"
+                "reference": "fcd87520e4943d968557803919523772475e8ea3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
-                "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/fcd87520e4943d968557803919523772475e8ea3",
+                "reference": "fcd87520e4943d968557803919523772475e8ea3",
                 "shasum": ""
             },
             "require": {
@@ -316,7 +317,13 @@
                 "laminas",
                 "zf"
             ],
-            "time": "2020-04-03T16:01:00+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-05-20T16:45:56+00:00"
         },
         {
             "name": "myth/auth",
@@ -324,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lonnieezell/myth-auth.git",
-                "reference": "6191627734409689e060eb2d7234663bb4797493"
+                "reference": "3da836b80d95a3f2c149c8d89f94fdb34c525b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/6191627734409689e060eb2d7234663bb4797493",
-                "reference": "6191627734409689e060eb2d7234663bb4797493",
+                "url": "https://api.github.com/repos/lonnieezell/myth-auth/zipball/3da836b80d95a3f2c149c8d89f94fdb34c525b9b",
+                "reference": "3da836b80d95a3f2c149c8d89f94fdb34c525b9b",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +383,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-05-12T17:47:02+00:00"
+            "time": "2020-05-26T15:29:39+00:00"
         },
         {
             "name": "psr/log",
@@ -1144,16 +1151,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.4",
+            "version": "8.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "8474e22d7d642f665084ba5ec780626cbd1efd23"
+                "reference": "63dda3b212a0025d380a745f91bdb4d8c985adb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8474e22d7d642f665084ba5ec780626cbd1efd23",
-                "reference": "8474e22d7d642f665084ba5ec780626cbd1efd23",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/63dda3b212a0025d380a745f91bdb4d8c985adb7",
+                "reference": "63dda3b212a0025d380a745f91bdb4d8c985adb7",
                 "shasum": ""
             },
             "require": {
@@ -1233,7 +1240,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-04-23T04:39:42+00:00"
+            "time": "2020-05-22T13:51:52+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -2014,6 +2021,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "agungsugiarto/boilerplate": 20,
         "codeigniter4/codeigniter4": 20
     },
     "prefer-stable": true,
