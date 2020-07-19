@@ -8,11 +8,12 @@
         "php": ">=7.2",
         "ext-mbstring": "*",
         "agungsugiarto/boilerplate": "dev-master",
-        "codeigniter4/codeigniter4": "dev-develop"
+        "codeigniter4/framework": "^4.0"
     },
     "require-dev": {
+        "fzaninotto/faker": "^1.9@dev",
         "mikey179/vfsstream": "1.6.*",
-        "phpunit/phpunit": "8.5.*"
+        "phpunit/phpunit": "^8.5"
     },
     "autoload-dev": {
         "psr-4": {
@@ -34,11 +35,5 @@
         "forum": "http://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/CodeIgniter4",
         "slack": "https://codeigniterchat.slack.com"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/codeigniter4/codeigniter4"
-        }
-    ]
+    }
 }

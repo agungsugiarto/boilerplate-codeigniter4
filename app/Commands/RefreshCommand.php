@@ -3,6 +3,7 @@
 namespace App\Commands;
 
 use CodeIgniter\CLI\BaseCommand;
+use Config\Database;
 
 /**
  * Class InstallCommand.
@@ -65,7 +66,8 @@ class RefreshCommand extends BaseCommand
             // migrate all first
             $this->call('migrate:refresh', $params);
             // then seed data
-            $this->call('db:seed', ['agungsugiarto\boilerplate\Database\Seeds\BoilerplateSeeder']);
+            $seeder = Database::seeder();
+            $seeder->call('agungsugiarto\boilerplate\Database\Seeds\BoilerplateSeeder');
         } catch (\Exception $e) {
             $this->showError($e);
         }
