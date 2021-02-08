@@ -1,4 +1,6 @@
-<?php namespace App\Database\Migrations;
+<?php
+
+namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
@@ -166,9 +168,8 @@ class CreateAuthTables extends Migration
 
     public function down()
     {
-		// drop constraints first to prevent errors
-        if ($this->db->DBDriver != 'SQLite3')
-        {
+        // drop constraints first to prevent errors
+        if ($this->db->DBDriver != 'SQLite3') {
             $this->forge->dropForeignKey('auth_tokens', 'auth_tokens_user_id_foreign');
             $this->forge->dropForeignKey('auth_groups_permissions', 'auth_groups_permissions_group_id_foreign');
             $this->forge->dropForeignKey('auth_groups_permissions', 'auth_groups_permissions_permission_id_foreign');
@@ -178,15 +179,15 @@ class CreateAuthTables extends Migration
             $this->forge->dropForeignKey('auth_users_permissions', 'auth_users_permissions_permission_id_foreign');
         }
 
-		$this->forge->dropTable('users', true);
-		$this->forge->dropTable('auth_logins', true);
-		$this->forge->dropTable('auth_tokens', true);
-		$this->forge->dropTable('auth_reset_attempts', true);
+        $this->forge->dropTable('users', true);
+        $this->forge->dropTable('auth_logins', true);
+        $this->forge->dropTable('auth_tokens', true);
+        $this->forge->dropTable('auth_reset_attempts', true);
         $this->forge->dropTable('auth_activation_attempts', true);
-		$this->forge->dropTable('auth_groups', true);
-		$this->forge->dropTable('auth_permissions', true);
-		$this->forge->dropTable('auth_groups_permissions', true);
-		$this->forge->dropTable('auth_groups_users', true);
-		$this->forge->dropTable('auth_users_permissions', true);
+        $this->forge->dropTable('auth_groups', true);
+        $this->forge->dropTable('auth_permissions', true);
+        $this->forge->dropTable('auth_groups_permissions', true);
+        $this->forge->dropTable('auth_groups_users', true);
+        $this->forge->dropTable('auth_users_permissions', true);
     }
 }
